@@ -1,0 +1,66 @@
+sila wants to know how the Arithmetic operators are performing in programming.could you please help her to learn the Arithmetic calculation.
+
+Input Format
+
+First input consist of integer
+second input consist of integer
+Constraints
+
+No Constraints
+
+Output Format
+
+execute the Arithmetic calculation values.
+Sample Input 0
+
+45
+7
+Sample Output 0
+
+Addition=52
+Subtraction=38
+Multiplication=315
+Division=6
+Modulo=3
+Contest ends in 7 days
+Submissions: 43
+Max Score: 10
+Difficulty: Medium
+Rate This Challenge:
+
+    
+Submitted 2 hours ago • Score: 10.00Status: Accepted
+ Test Case #0
+ Test Case #1
+ Test Case #2
+ Test Case #3
+ Test Case #4
+
+Submitted Code
+Language: Python 3
+
+ Open in editor
+1
+a=input()
+2
+b=int(input())
+3
+c=int(input())
+4
+d=int(input())
+5
+e=int(input())
+6
+f=int(input())
+7
+total_marks=(b+c+d+e+f)
+8
+average_marks=((total_marks)/5)
+9
+print(f"Name of the Student:{a}")
+10
+print(f"Total marks:{total_marks}")
+11
+print(f"Average marks:{average_marks}")
+
+# Enter your code here. Read input from STDIN. Print output to
