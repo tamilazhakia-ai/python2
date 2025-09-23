@@ -1,0 +1,76 @@
+Veena wants to learn shape calculation for Square,Rectangle,Circle,Triangle to implements in programming.Could you please help her to how to write the program. - Square formula:a*a - Rectangle formula:l*b - Circle formula:πr^2 - Triangle formula:1/2*(b*h)
+
+Input Format
+
+First input consist of integer for side.
+Second and third input consists of integer for Length and breadth.
+forth input consist of radius.
+Fifth and Sixth input consist of Base and height.
+Constraints
+
+No Constraints
+
+Output Format
+
+Execute the area of shape calculation values.
+Sample Input 0
+
+2
+3
+2
+3
+6
+5
+Sample Output 0
+
+Area of Square=4
+Area of Rectangle=6
+Area of Circle=28.27
+Area of Triangle=15
+       Problem
+Submissions
+Leaderboard
+Discussions
+Submitted an hour ago • Score: 10.00Status: Accepted
+ Test Case #0
+ Test Case #1
+ Test Case #2
+ Test Case #3
+ Test Case #4
+
+Submitted Code
+Language: Python 3
+
+ Open in editor
+1
+# Enter your code here. Read input from STDIN. Print outpu
+2
+import math
+3
+side=int(input())
+4
+length=int(input())
+5
+breadth=int(input())
+6
+radius=int(input())
+7
+base=int(input())
+8
+height=int(input())
+9
+square=side*side
+10
+rectangle=length*breadth
+11
+circle=math.pi*radius*radius
+12
+triangle=0.5*base*height
+13
+print("Area of Square="+str(square))
+14
+print("Area of Rectangle="+str(rectangle))
+15
+print(f"Area of Circle={int(circle*100)/100}")
+16
+print("Area of Triangle="+str(int(triangle)))
