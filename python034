@@ -1,0 +1,50 @@
+Sela wants to learn the alphabets type to implements in the program.could you please her to implements the program.
+
+Input Format
+
+input consists of Character
+Constraints
+
+No Constraints
+
+Output Format
+
+if the Given input is A,print the statement is "Upper Case".
+if the Given input is a,print the statement is "Lower Case".
+if the Given input is 2,print the statement is "Number".
+if the Given input is &,print the statement is "Symbol".
+Sample Input 0
+
+A
+Sample Output 0
+
+The Given Character A is Upper Case...
+Sample Input 1
+
+a
+Sample Output 1
+
+The Given Character a is Lower Case...
+Sample Input 2
+
+4
+Sample Output 2
+
+The Given Character 4 is Number...Submitted an hour ago • Score: 10.00Status: Accepted
+ Test Case #0
+ Test Case #1
+ Test Case #2
+ Test Case #3
+ Test Case #4
+ Test Case #5
+ Test Case #6
+ Test Case #7
+
+Submitted Code
+Language: Python 3
+
+ Open in editor
+1
+c=input()
+2
+print(f"The Given Character {c} is {'Upper Case' if c.isupper() else 'Lower Case' if c.islower() else 'Number' if c.isdigit() else 'Symbol'}...")
