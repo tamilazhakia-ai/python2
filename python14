@@ -1,0 +1,75 @@
+Problem
+Submissions
+Leaderboard
+Discussions
+Given two integers, M and N, calculate the sum of the cubes of all integers from M to N inclusive. If M is greater than N, the result should be zero or an appropriate message should be displayed.
+
+Input Format
+
+Input:
+
+M = 2 N = 4
+
+Constraints
+
+NO Constraints
+
+Output Format
+
+Output:
+
+63
+
+Explanation: The sum of the cubes of 2, 3, and 4 is 8 + 27 + 64 = 99.
+
+Sample Input 0
+
+9 15
+Sample Output 0
+
+13104
+Sample Input 1
+
+24 5
+Sample Output 1
+
+M should be less than or equal to N
+Contest ends in 5 days
+Submissions: 12
+Max Score: 10
+Difficulty: Medium
+Rate This Challenge:
+
+    
+More
+ 
+1
+​Submitted an hour ago • Score: 10.00Status: Accepted
+ Test Case #0
+ Test Case #1
+ Test Case #2
+ Test Case #3
+ Test Case #4
+
+Submitted Code
+Language: Python 3
+
+ Open in editor
+1
+print("Enter a number")
+2
+n = int(input())
+3
+c = 0
+4
+while n != 1:
+5
+    print(n)
+6
+    n = n // 2 if n % 2 == 0 else 3 * n + 1
+7
+    c += 1
+8
+print(1)
+9
+print("count:" + str(c))
