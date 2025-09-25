@@ -1,0 +1,51 @@
+Seela wants to find the sum of even and odd numbers in the between range values.could you please help her to implements the program.
+
+Input Format
+
+Input consists of two integer.
+Constraints
+
+Given N is greater than 1 and lesser than 100.
+
+Output Format
+
+Print the sum of even num and odd num.
+Sample Input 0
+
+3
+9
+Sample Output 0
+
+The Even Sum value is 18.00
+The Odd Sum value is 24.00
+Sample Input 1
+
+11
+23
+Sample Output 1
+
+The Even Sum value is 102.00
+The Odd Sum value is 119.00
+Sample Input 2
+
+100
+200
+Sample Output 2
+
+Invalid Input
+Contest ends in 5 days
+Submissions: 50
+Max Score: 10
+Difficulty: Medium
+Rate This Challenge:
+
+    
+More
+a, b = int(input()), int(input())
+if a < 1 or b > 100:
+    print("Invalid Input")
+else:
+    even = sum(i for i in range(a, b+1) if i%2==0)
+    odd = sum(i for i in range(a, b+1) if i%2!=0)
+    print(f"The Even Sum value is {float(even):.2f}")
+    print(f"The Odd Sum value is {float(odd):.2f}")
