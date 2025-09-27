@@ -1,0 +1,37 @@
+
+Given an integer, we need to find the sum of values of that table.
+
+Input:10
+
+Output:550
+
+Explanation: 10*1+10*2+…..10*10
+
+Input Format
+
+Given in the problem statement
+
+Constraints
+
+No constraints
+
+Output Format
+
+Given in the problem statement
+
+Sample Input 0
+
+45
+ Test Case #0
+ Test Case #1
+ Test Case #2
+ Test Case #3
+
+Submitted Code
+Language: Python 3
+
+ Open in editor
+1
+n = int(input())
+2
+print(n * (n + 1) // 2 * n)
