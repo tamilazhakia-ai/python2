@@ -1,0 +1,55 @@
+Write a program to execute the Pattern.
+
+Input Format
+
+Input consists single Integer.
+
+Constraints
+
+Constraints
+
+Output Format
+
+Execute the pattern
+
+Sample Input 0
+
+5
+Sample Output 0
+
+*   *
+ * *
+  *
+ * *
+*   *
+Sample Input 1
+
+9
+Sample Output 1
+
+*       *
+ *     *
+  *   *
+   * *
+    *
+   * *
+  *   *
+ *     *
+*       *
+Contest ends in 3 days
+Submissions: 34
+Max Score: 10
+Difficulty: Medium
+Rate This Challenge:
+
+    
+More
+ 
+n = int(input())
+for i in range(n):
+    for j in range(n):
+        if j == i or j == n - i - 1:
+            print('*', end='')
+        else:
+            print(' ', end='')
+    print()
